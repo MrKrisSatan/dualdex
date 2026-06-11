@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --color-sleek-bg: var(--sleek-bg);
+  --color-sleek-card: var(--sleek-card);
+  --color-sleek-panel: var(--sleek-panel);
+  --color-sleek-border: var(--sleek-border);
+  --color-sleek-accent: var(--sleek-accent);
+}
+
+:root {
+  --sleek-bg: #030303;
+  --sleek-card: #0a0a0c;
+  --sleek-panel: #111114;
+  --sleek-border: #1f1f26;
+  --sleek-accent: #f43f5e;
+}
+
+[data-theme="rotom"] {
+  --sleek-bg: #120508;
+  --sleek-card: #1f080e;
+  --sleek-panel: #2e0d16;
+  --sleek-border: #4a1523;
+  --sleek-accent: #ff2e63;
+}
+
+[data-theme="jade"] {
+  --sleek-bg: #030d08;
+  --sleek-card: #071a10;
+  --sleek-panel: #0b291a;
+  --sleek-border: #14452c;
+  --sleek-accent: #10b981;
+}
+
+@keyframes scanline {
+  0% {
+    top: -10%;
+  }
+  100% {
+    top: 110%;
+  }
+}
+
+.scanline-anim {
+  animation: scanline 3.5s linear infinite;
+}
+

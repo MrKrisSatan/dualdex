@@ -1,0 +1,6 @@
+{
+  "name": "PokéMMO DualScreen Dex",
+  "description": "A dual-screen companion dashboard for PokéMMO, featuring a battle scanner simulation, complete Pokédex with base stats, type matchups, locations, hordes list, team builder, and direct Kotlin native source code export tools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
